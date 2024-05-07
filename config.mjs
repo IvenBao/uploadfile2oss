@@ -1,5 +1,5 @@
 import fs from "fs";
-const getStsApi= 'https://testcare.10tts.com/admin/upload/sts?upload_module=10&file_extension_name=static&file_custom_name=static' // 获取sts参数的api地址
+const getStsApi= 'stsapiurl' // 获取sts参数的api地址
 const noEmptyFile = (folderPath)=> new Promise((resolve, reject) => {
   fs.readdir(folderPath, (err, files) => {
     if (err) {
