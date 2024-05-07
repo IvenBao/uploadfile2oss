@@ -1,0 +1,27 @@
+{
+  "name": "uploadfile2oss",
+  "version": "1.0.0",
+  "description": "上传本地文件到阿里云oss，可以批量上传也可以单个文件上传",
+  "main": "index.js",
+  "scripts": {
+    "upload:ds": "node up.mjs ds",
+    "upload:care": "node up.mjs care",
+    "upload:ssm": "node up.mjs ssm",
+    "test": "nodemon up.mjs test"
+  },
+  "keywords": [
+    "upload",
+    "Oss",
+    "2Oss",
+    "toOss",
+    "file",
+    "sts"
+  ],
+  "author": "yifan1719@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.8",
+    "ali-oss": "^6.0.1",
+    "single-line-log": "^1.1.2"
+  }
+}
